@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 300px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 0 300px;
+    width: 50%; 
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-head{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px 200px;
+    font-size: 30px ;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 300px;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.items img{
+    padding: 10px 10px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+.posts ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 50px;
+}
+
+.about{
+    font-size: 20px;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    color: black;
+}
+
+button{
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius:10px;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+hr{
+    margin: 0 60px;;
+}
+.search input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 215, 215);
+
+}
